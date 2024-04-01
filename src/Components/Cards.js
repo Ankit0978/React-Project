@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from "./Card"
-
+import "./cards.css"
  const Cards = (props) => {
      let courses = props.courses 
      let allCourses = [];
@@ -21,9 +21,9 @@ import Card from "./Card"
         return allCourses
         
     }
-    console.log(allCourses)
+    // console.log(allCourses)
     return (
-        <div>{
+        <div className="cards">{
              getCourses().map((course) =>(
                  <Card key = {course.id} course= {course}></Card>
              ))

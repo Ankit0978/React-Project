@@ -1,13 +1,13 @@
 import React from "react"
-
+import "./filter.css"
 
 const Filter =  (props) => {
     let filterData = props.filterData;
     return (
-        <div>
+        <div className="filter">
         
         {filterData.map ((data) => { 
-          return  (<button key = {data.id}>
+          return  (<button className="button" key = {data.id}>
                 {data.title}
             </button>)
         } )}

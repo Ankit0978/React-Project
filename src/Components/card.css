@@ -1,0 +1,52 @@
+/* .main{
+    background-color: black;
+    width: 300px;
+} */
+
+.main{
+    background-color: black;
+    width: 1280px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    font-size: large;
+}
+
+.image{
+    position: relative;
+    /* max-width: 100vw;
+    max-height: 100vh; */
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 12px;
+    display: grid;
+    place-items: center;
+    right: 0.5rem;
+    bottom: 0.75rem;
+
+    
+}
+
+.icon{
+    font-size: 1.25rem;
+    color: red;
+}
+
+.para{
+    padding: 4px;
+}
+
+.para1{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.para2{
+    margin-top: 2;
+}
