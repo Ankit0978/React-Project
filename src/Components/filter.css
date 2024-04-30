@@ -1,23 +1,42 @@
 .filter{
-    width: 11/12;
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    justify-content: center;
+    /* width: 11/12; */
+    
     align-items: center;
-    /* width: max-content; */
-    /* line-height: 100px; */
-    gap: 20px;
+    width:max-content;
+    height:max-content;
+    /* border: 2px solid red; */
 }
 
-.button{
-    color: white;
-    background-color: grey;
-    /* font-size: large; */
-    padding-top: 1px;
-    padding-bottom: 2px;
+ .button{
+   
+    /* border: 2px solid red; */
+    color:rgb(0, 0, 0);
+    background-color: rgb(197, 187, 187);
+    font-size: large;
+    padding: 10px 10px;
     border-radius: 5px;
-    font-size: medium;
-    border: 2px;
-    opacity: 50px;
+    opacity: 50%;
+    width:200px;
+    height:auto; 
+    font-size:x-large;
+    font-weight: bolder;
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    line-height: 20px;
+
+    /* right: 100px; */
+    /* left: ; */
+ } 
+
+/* .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.filterdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }

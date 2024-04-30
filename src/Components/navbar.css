@@ -1,5 +1,10 @@
+
+
 .navbar{
-    /* color: blueviolet; */
-    padding: 4px;
-    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 400px;
+    margin-bottom: 20px;
 }

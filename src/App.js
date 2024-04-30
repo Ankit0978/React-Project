@@ -8,7 +8,7 @@ import {useState, useEffect} from "react"
 import Cards from "./Components/Cards"
 // import "./Components/navBar.css";
 // import "./spinner2.css"
-import "./Components/cards2.css"
+// import "./Components/cards2.css"
 import "./Components/maindiv.css"
 
 const App = () => {
@@ -43,10 +43,10 @@ const App = () => {
         <Navbar ></Navbar>
       </div>
       <div className="maindiv">
-      <div>
+      <div className="filterdiv">
         <Filter filterData={filterData} />
       </div>
-      <div className="cards2">{loading ? <Spinner></Spinner> :<Cards courses = {courses}></Cards>}</div>
+      <div>{loading ? <Spinner></Spinner> :<Cards courses = {courses}></Cards>}</div>
       </div>
       
     </div>

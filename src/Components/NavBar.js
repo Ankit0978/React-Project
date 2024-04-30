@@ -5,8 +5,8 @@ import "./heading.css"
 const Navbar = () => {
     return (
         <div >
-        <nav className="navbar" > 
-        <h1 className="heading">Top Courses</h1>
+        <nav className="heading" > 
+        <h1 className="navbar">Top Courses</h1>
         </nav>
         </div>
     )

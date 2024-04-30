@@ -1,0 +1,35 @@
+.singlecard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh; 
+    height: fit-content;
+    text-align: center; 
+}
+
+.para{
+ text-align: center; 
+ /* font-size: x-large; */
+}
+ 
+.para1{
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+.para2{
+    text-align: left;
+}
+
+.imagecontainer{
+    text-align: center;
+    flex-wrap: wrap;
+} 
+
+/* .imagecontainer img{
+    display: block;
+    margin: 0 auto;
+} */
